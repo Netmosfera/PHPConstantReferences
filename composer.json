@@ -1,0 +1,25 @@
+{
+    "name": "netmosfera/constant-refs",
+    "description": "Constant References",
+    "homepage": "https://github.com/Netmosfera/PHPConstantReferences",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wes",
+            "homepage": "https://github.com/Netmosfera",
+            "role": "Smith"
+        }
+    ],
+    "require": {
+        "php": ">=7.3 <7.4",
+        "ext-Constant-References": ">=7.3 <7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7 <8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netmosfera\\ConstantReferencesTests\\": "tests/"
+        }
+    }
+}
