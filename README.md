@@ -1,8 +1,21 @@
 # PHP Constant References
 
+## Installation:
+
+The following installs the PHP stubs and the tests, other than enforcing the dependency
+of the extension in Composer:
+
+```
+composer require netmosfera/constant-refs
+```
+
+To compile the extension, clone this repo to the `ext` folder and add
+`--enable-constant-refs` to the `configure` command when compiling PHP.
+
+## Description:
 Allows objects to be saved in PHP constants. PHP normally allows only primitive types
 in constants - this library makes possible to save anything in them, as in ECMAScript.
-Constant references may contain mutable data, but they can only be assigned once.
+Constant references may contain mutable data, but they can be assigned only once.
 
 ```php
 <?php
