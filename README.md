@@ -13,6 +13,7 @@ To compile the extension, clone this repo to the `ext` folder and add
 `--enable-constant-refs` to the `configure` command when compiling PHP.
 
 ## Description:
+
 Allows objects to be saved in PHP constants. PHP normally allows only primitive types
 in constants - this library makes possible to save anything in them, as in ECMAScript.
 Constant references may contain mutable data, but they can be assigned only once.
