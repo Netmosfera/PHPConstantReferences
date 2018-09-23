@@ -4,7 +4,7 @@
     extern zend_module_entry constant_refs_module_entry;
     #define phpext_constant_refs_ptr &constant_refs_module_entry
 
-    #define PHP_CONSTANT_REFS_VERSION "7.3"
+    #define PHP_CONSTANT_REFS_VERSION "7.2"
     #define PHP_CONSTANT_REFS_EXTNAME "Constant References"
 
     #ifdef ZTS

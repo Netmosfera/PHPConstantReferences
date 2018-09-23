@@ -10,9 +10,9 @@
 
 void constant_refs_define(zend_string *name, zval *value){
     zend_constant constant;
+    constant.flags = CONST_CS;
     constant.name = zend_string_copy(name);
     ZVAL_COPY(&constant.value, value);
-    ZEND_CONSTANT_SET_FLAGS(&constant, CONST_CS, 0);
     zend_register_constant(&constant);
 }
 
